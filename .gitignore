@@ -36,11 +36,11 @@ ENV/
 # OS specific
 .DS_Store
 
-# Data files (선택적)
 data/*.csv
 data/*.json
+data/**/*.csv
+data/**/*.json
 
-# 모델 파일 (큰 파일은 Git LFS 사용 권장)
 *.joblib
 *.pkl
 *.h5

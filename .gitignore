@@ -50,4 +50,6 @@ data/**/*.json
 .env
 
 # 데이터셋
-./datasets
+datasets/raw/rtu_data_full.csv
+datasets/raw/rtu_ground_truth_may.csv
+datasets/preprocessed/rtu_data_preprocessed.parquet
